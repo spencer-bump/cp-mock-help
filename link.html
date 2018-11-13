@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Link</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            goToLinks = function (message) {
+                message && alert(message);
+                window.location = './links.html';
+            }
+            goToIndex = function (message) {
+                message && alert(message);
+                window.location = './index.html';
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" style="padding-top: 20px;">
+                    <h1>Link:</h1>
+            </div>
+            <div class="row" style="padding-bottom: 5px;">
+                <div class="col-lg-3">
+                    Name:
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name>">
+                </div>
+            </div>
+         <!--    <div class="row" style="padding-bottom: 5px;">
+                <div class="col-lg-3">
+                    Country Code:
+                </div>
+                <div class="input-group col-lg-3    ">
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option value="en" selected>en</option>
+                    <option value="es">es</option>
+                    <option value="id">id</option>
+                    <option value="pt">pt</option>
+                    <option value="th">th</option>
+                    <option value="vi">vi</option>
+                  </select>
+                </div>
+            </div> -->
+            <div class="row" style="padding-bottom: 5px;">
+                <div class="col-lg-3">
+                    URL:
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link URL>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2>Translations:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "en"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "es"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "id"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "pt"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "th"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    "vi"
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" placeholder="<link name 1>">
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-lg-3">
+                    <button type="button" onclick="alert('Saves changes')" class="btn btn-success">Save</button>
+                    <button type="button" onclick="alert('Translates name using country code as the default language.')" class="btn btn-warning">Translate</button>
+                    <button type="button" onclick="goToLinks('')" class="btn btn-danger">Cancel</button>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-3">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
