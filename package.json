@@ -1,0 +1,22 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "mock of help faq and links",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencer-bump/cp-mock-help.git"
+  },
+  "author": "Spencer Eldred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencer-bump/cp-mock-help/issues"
+  },
+  "homepage": "https://github.com/spencer-bump/cp-mock-help#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
