@@ -21,7 +21,7 @@
     <body>
         <div class="container">
             <div class="row" style="padding-top: 20px;">
-                    <h1>Link Sections:</h1>
+                    <h1>Answers for "question #":</h1>
             </div>
             <div class="row" style="padding-bottom: 5px;">
                 <div class="col-lg-3">
@@ -32,10 +32,10 @@
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="col-sm-6">
-                            <button type="button" onclick="goToTheme('Add new answer')" class="btn btn-sm btn-primary">Add a new Answer</button>
+                            <button type="button" onclick="goToAnswer('')" class="btn btn-sm btn-primary">Add a new Answer</button>
                         </div>
                         <div class="col-sm-6">
-                            <button type="button" onclick="alert('refreshes list of link sections')" class="btn btn-sm btn-primary">Refresh</button>
+                            <button type="button" class="btn btn-sm btn-primary">Refresh</button>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
             <hr>
             <div class="row" style="padding-top: 10px;">
                 <div class="col-lg-3">
-                    <button type="button" onclick="alert('Saves changes')" class="btn btn-success">Save</button>
+                    <button type="button" onclick="goToIndex()" class="btn btn-success">Save</button>
                     <button type="button" onclick="goToIndex()" class="btn btn-danger">Cancel</button>
                 </div>
                 <div class="col-lg-3">
